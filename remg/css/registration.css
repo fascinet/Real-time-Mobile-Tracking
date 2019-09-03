@@ -1,0 +1,102 @@
+.form
+{
+	font-size: 25px;
+	background-image: url('https://cdn.dribbble.com/users/261567/screenshots/2459200/booty.gif'); 
+	background-repeat:no-repeat;
+	font-family:monospace; 
+	background-size:100% 100%;
+	width: 40%;
+	height:350px;
+	border-style: solid;
+	border-color: blue;
+	margin:auto;
+	color:#333399;
+	padding:40px;
+}
+.button
+{
+  background-color: skyblue; /* Green */
+  border: 2px solid #333399;
+  width: 140px;
+  height: 30px;
+  border-radius: 20px;
+  color: #333399;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  
+}
+.button1
+{
+  background-color: skyblue; /* Green */
+  border: 2px solid #333399;
+  width: 120px;
+  height: 31px;
+  border-radius: 20px;
+  color: #333399;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  
+}
+a
+{
+	margin-left: 200px;
+}
+h1
+{
+	margin-top: 0;
+	padding-top: 0;
+	text-align: center;
+	font-size: 50px;
+	color:#333399;
+	font-family:monospace;
+	text-decoration: underline;
+
+}
+#head
+{
+	font-size: 30px;
+	color:#333399;
+	font-family:monospace;
+}
+input[type=text]
+{
+	-webkit-transition:
+	width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	width:70%;
+	padding: 12px 20px;
+	margin:8px 0;
+	box-sizing: border-box;
+	border:2px solid blue;
+	border-radius: 4px;
+}
+input[type=text]:focus
+{
+	width:100%;
+}
+input[type=password]
+{
+	-webkit-transition:
+	width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	width:70%;
+	padding: 12px 20px;
+	margin:8px 0;
+	box-sizing: border-box;
+	border:2px solid blue;
+	border-radius: 4px;
+}
+input[type=password]:focus
+{
+	width:100%;
+}
+
+body
+{
+	background-image: url('https://cdn.hypersense-software.com/wp-content/uploads/2018/07/mobile_tracking_app-1600x800.jpg');
+	background-size: 100%;
+}
