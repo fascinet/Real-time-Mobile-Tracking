@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Registration</title> 
+        <h1>Register To Track Your Phone</h1>
+        <link rel="stylesheet" type="text/css" href="css/registration.css">
+     </head>
+     <body>
+        <div class="form">
+            REGISTER HERE
+        <form action="php/send_otp.php" method="POST">
+            <p>Your Name</p><input type="text" name="name" placeholder="Enter your name" size="20" required><br>
+            <p>Enter Your Mobile Number</p><input type="text" name="mobile_no" placeholder="9999999999" maxlength="10" required><br><br>
+            <input type="submit" name="submit" class="button" value="Signup">
+            <a href="index.html" class="button1">Registered?</a>
+        </form>
+        </div>
+     </body> 
+</html>
