@@ -1,7 +1,7 @@
 <?php
 function phpAlert($msg)
 {
-  echo '<script type="text/javascript">window.alert("'.$msg.'");window.location.href = "/~sajal/reg1.php";</script>';
+  echo '<script type="text/javascript">window.alert("'.$msg.'");window.location.href = "/~mohit/index.html";</script>';
 }
 $mobile=$_POST["mobile_no"];
 $password=$_POST["password"];
