@@ -24,5 +24,4 @@ else
 {
 	//go to login page+ alert not registered;
 }
-
 ?>
